@@ -1,0 +1,44 @@
+{
+  "uuid": "79d6f681-4405-4ceb-8c51-dbfdaa4b204f",
+  "name": "LambdatestPlaywrightTests.PlaywrightTests(\"chrome\",\"128\",\"Windows 10\").TestScenario3",
+  "children": [
+    "d3db5d3a-9a5d-465e-ac6f-2ec0735de571"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954836071,
+      "stop": 1742954855247
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954856619,
+      "stop": 1742954856973
+    }
+  ],
+  "links": [],
+  "start": 1742954836052,
+  "stop": 1742954856975
+}

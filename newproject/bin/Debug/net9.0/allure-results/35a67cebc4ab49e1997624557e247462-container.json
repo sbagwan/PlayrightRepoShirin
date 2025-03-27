@@ -1,0 +1,44 @@
+{
+  "uuid": "4893fd68-bbeb-4df8-b4bc-da3a6d47b3fb",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass.TestScenarioSimpleFormDemo",
+  "children": [
+    "1f6bab4f-515d-495a-8d93-f6b6a02b7747"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742948856529,
+      "stop": 1742948866317
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742948870457,
+      "stop": 1742948871610
+    }
+  ],
+  "links": [],
+  "start": 1742948856529,
+  "stop": 1742948871613
+}

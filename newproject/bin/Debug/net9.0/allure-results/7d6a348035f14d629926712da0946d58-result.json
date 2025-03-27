@@ -1,0 +1,45 @@
+{
+  "uuid": "7b8f473f-066a-40fc-8537-87064790fe9b",
+  "historyId": "a3a5e92fd11f89b74cbd012c99497b28",
+  "testCaseId": "c0040339a2d5768cfeae7749fb377122",
+  "fullName": "newproject:LambdatestPlaywrightTests.PlaywrightClass.TestScenarioFillInputForm()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-HT6ER8O9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "LambdatestPlaywrightTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestScenarioFillInputForm"
+    },
+    {
+      "name": "testClass",
+      "value": "PlaywrightClass"
+    }
+  ],
+  "links": [],
+  "name": "Scenario is for Input Form",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1742948842137,
+  "stop": 1742948856503
+}

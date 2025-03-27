@@ -1,0 +1,51 @@
+{
+  "uuid": "b43eea51-196b-4eef-ad10-d20a888be3dd",
+  "historyId": "b81be5078817836081f53bc939803b5c",
+  "testCaseId": "f9191634b347c4f97793fe9817784337",
+  "fullName": "newproject:LambdatestPlaywrightTests.PlaywrightClass.TestScenarioSimpleFormDemo()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-HT6ER8O9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "LambdatestPlaywrightTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestScenarioSimpleFormDemo"
+    },
+    {
+      "name": "testClass",
+      "value": "PlaywrightClass"
+    }
+  ],
+  "links": [],
+  "name": "Scenario is for Simple form Demo",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "64c15cdd-abe6-4d2d-88f6-f260a07fc903-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1742953597290,
+  "stop": 1742953614021
+}

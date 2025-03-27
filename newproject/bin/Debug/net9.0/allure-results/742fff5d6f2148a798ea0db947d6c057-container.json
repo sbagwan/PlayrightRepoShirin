@@ -1,0 +1,48 @@
+{
+  "uuid": "bef5cbd1-3686-4c7d-a0bb-4d013150a133",
+  "name": "LambdatestPlaywrightTests.PlaywrightTests(\"chrome\",\"128\",\"macOS Ventura\").TestScenario2",
+  "children": [
+    "54eda818-54fb-42b6-a5ff-01dd415ff950"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Internal Server Error",
+        "trace": "Microsoft.Playwright.PlaywrightException: Internal Server Error\r\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at Microsoft.Playwright.Transport.Connection.InitializePlaywrightAsync() in /_/src/Playwright/Transport/Connection.cs:line 245\r\n   at Microsoft.Playwright.Core.BrowserType.<>c__DisplayClass12_0.<<ConnectAsync>g__CreateBrowserAsync|8>d.MoveNext() in /_/src/Playwright/Core/BrowserType.cs:line 244\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Playwright.Helpers.TaskHelper.WithTimeout[T](Task`1 task, TimeSpan timeout, Func`2 exceptionFactory) in /_/src/Playwright/Helpers/TaskHelper.cs:line 181\r\n   at Microsoft.Playwright.Core.BrowserType.ConnectAsync(String wsEndpoint, BrowserTypeConnectOptions options) in /_/src/Playwright/Core/BrowserType.cs:line 259\r\n   at LambdatestPlaywrightTests.PlaywrightTests.Setup() in C:\\Users\\shirin\\source\\repos\\newproject\\UnitTest1.cs:line 55\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954308879,
+      "stop": 1742954315761
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Object reference not set to an instance of an object.",
+        "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at LambdatestPlaywrightTests.PlaywrightTests.Close() in C:\\Users\\shirin\\source\\repos\\newproject\\UnitTest1.cs:line 170\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954315768,
+      "stop": 1742954315769
+    }
+  ],
+  "links": [],
+  "start": 1742954308863,
+  "stop": 1742954315813
+}

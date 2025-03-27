@@ -1,0 +1,12 @@
+{
+  "uuid": "0a76d932-4741-4f9f-a8ad-1ca82017f784",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass(\"chrome\",\"128\",\"Windows 10\")",
+  "children": [
+    "c7fe8f1a-77bb-403f-96d4-575dc37fb887"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1742951950663,
+  "stop": 1742951975705
+}

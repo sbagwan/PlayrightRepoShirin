@@ -1,0 +1,14 @@
+{
+  "uuid": "0ee534c9-f4af-4959-9e22-156da2430b30",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass(\"edge\",\"128\",\"macOS Ventura\")",
+  "children": [
+    "63885455-77e0-48ad-95e4-34b21736fe9f",
+    "78c6cba9-dd42-4d77-9b88-fe2dfa47b423",
+    "5970a030-5a5b-462b-9e2e-eac7869295d1"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1742949569755,
+  "stop": 1742949578226
+}

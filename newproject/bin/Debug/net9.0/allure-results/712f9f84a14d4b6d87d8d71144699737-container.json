@@ -1,0 +1,44 @@
+{
+  "uuid": "38e5b691-8aac-44f7-9711-62126930b8fa",
+  "name": "LambdatestPlaywrightTests.PlaywrightTests(\"chrome\",\"128\",\"macOS Ventura\").TestScenario3",
+  "children": [
+    "6f56d41f-7cd7-4abf-8548-3b892a7bc52b"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954427518,
+      "stop": 1742954450666
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954453519,
+      "stop": 1742954453764
+    }
+  ],
+  "links": [],
+  "start": 1742954427504,
+  "stop": 1742954453778
+}

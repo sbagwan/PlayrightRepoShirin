@@ -1,0 +1,44 @@
+{
+  "uuid": "135fec56-404c-427d-baac-4fab4f547130",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass(\"chrome\",\"128\",\"Windows 10\").TestScenarioDragDrop",
+  "children": [
+    "2fbb76ff-6d36-4c35-85d7-f0ce91d6c104"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742950028579,
+      "stop": 1742950049747
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742950052688,
+      "stop": 1742950053961
+    }
+  ],
+  "links": [],
+  "start": 1742950028566,
+  "stop": 1742950053992
+}

@@ -1,0 +1,14 @@
+{
+  "uuid": "dea21bf5-2b64-45de-a6ed-6a45b52999f5",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass(\"edge\",\"128\",\"Windows 10\")",
+  "children": [
+    "aa9aefa1-87ff-45d3-90a9-b4483da5ec3a",
+    "d0a1abfc-5947-4670-9fa3-42eba757741f",
+    "b7ebc56f-c141-4168-a426-6593b9bb2152"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1742949569755,
+  "stop": 1742949585956
+}

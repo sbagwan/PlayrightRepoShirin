@@ -1,0 +1,52 @@
+{
+  "uuid": "676db225-aea8-498a-9b03-f4176e145f3d",
+  "historyId": "00a3253197ea499f2b5a10d4a7d9a163",
+  "testCaseId": "70fbe541e7bd30a1e67e014bb3de79e6",
+  "fullName": "newproject:LambdatestPlaywrightTests.PlaywrightTests.TestScenario3()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-HT6ER8O9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "LambdatestPlaywrightTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestScenario3"
+    },
+    {
+      "name": "testClass",
+      "value": "PlaywrightTests"
+    }
+  ],
+  "links": [],
+  "name": "Scenario is for Input Form",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Microsoft.Playwright.PlaywrightException : Unauthorized, either Username or AccessKey is invalid.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at Microsoft.Playwright.Transport.Connection.InitializePlaywrightAsync() in /_/src/Playwright/Transport/Connection.cs:line 245\r\n   at Microsoft.Playwright.Core.BrowserType.<>c__DisplayClass12_0.<<ConnectAsync>g__CreateBrowserAsync|8>d.MoveNext() in /_/src/Playwright/Core/BrowserType.cs:line 244\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Playwright.Helpers.TaskHelper.WithTimeout[T](Task`1 task, TimeSpan timeout, Func`2 exceptionFactory) in /_/src/Playwright/Helpers/TaskHelper.cs:line 181\r\n   at Microsoft.Playwright.Core.BrowserType.ConnectAsync(String wsEndpoint, BrowserTypeConnectOptions options) in /_/src/Playwright/Core/BrowserType.cs:line 259\r\n   at LambdatestPlaywrightTests.PlaywrightTests.Setup() in C:\\Users\\shirin\\source\\repos\\newproject\\UnitTest1.cs:line 59\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUp(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n--TearDown\r\n   at LambdatestPlaywrightTests.PlaywrightTests.Close() in C:\\Users\\shirin\\source\\repos\\newproject\\UnitTest1.cs:line 174\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743015206182,
+  "stop": 1743015206831
+}

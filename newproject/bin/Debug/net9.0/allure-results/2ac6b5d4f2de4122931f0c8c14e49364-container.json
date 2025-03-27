@@ -1,0 +1,44 @@
+{
+  "uuid": "ddafae5d-65f1-4c98-8218-dcb0414262d5",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass(\"chrome\",\"128\",\"macOS Ventura\").TestScenarioFillInputForm",
+  "children": [
+    "f8d87a16-1e4e-4e71-827c-62ae8733e7d2"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742953851140,
+      "stop": 1742953857068
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742953859851,
+      "stop": 1742953861863
+    }
+  ],
+  "links": [],
+  "start": 1742953851129,
+  "stop": 1742953861883
+}

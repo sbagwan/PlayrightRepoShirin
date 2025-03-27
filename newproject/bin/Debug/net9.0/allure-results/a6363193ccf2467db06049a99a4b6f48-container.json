@@ -1,0 +1,14 @@
+{
+  "uuid": "68bcd253-0133-49c9-bd82-e5d81ba3ee23",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass(\"chrome\",\"128\",\"macOS Ventura\")",
+  "children": [
+    "b79c4246-7c6c-4ae7-aaf3-646a08ad7215",
+    "c054659d-fcb5-4367-b245-1101164d6a6b",
+    "1f9116a6-9fb2-439c-b15f-d727b613fdab"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1742952201813,
+  "stop": 1742952833391
+}

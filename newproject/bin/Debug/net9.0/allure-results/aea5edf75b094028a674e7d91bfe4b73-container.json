@@ -1,0 +1,46 @@
+{
+  "uuid": "8d20ea31-12ae-4429-9ae2-9e4d2c827d97",
+  "name": "LambdatestPlaywrightTests.PlaywrightTests(\"chrome\",\"128\",\"Windows 10\").TestScenario1",
+  "children": [
+    "ea10f738-c6ed-4d22-8c64-6f8e74fcaa25"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954836071,
+      "stop": 1742954845697
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Target page, context or browser has been closed",
+        "trace": "Microsoft.Playwright.TargetClosedException: Target page, context or browser has been closed\r\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 144\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at Microsoft.Playwright.Core.Tracing._TracingStopChunkAsync(String mode) in /_/src/Playwright/Core/Tracing.cs:line 146\r\n   at Microsoft.Playwright.Core.Tracing.DoStopChunkAsync(String filePath) in /_/src/Playwright/Core/Tracing.cs:line 125\r\n   at Microsoft.Playwright.Core.Tracing.StopAsync(TracingStopOptions options) in /_/src/Playwright/Core/Tracing.cs:line 97\r\n   at LambdatestPlaywrightTests.PlaywrightTests.Close() in C:\\Users\\shirin\\source\\repos\\newproject\\UnitTest1.cs:line 170\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954848022,
+      "stop": 1742954848027
+    }
+  ],
+  "links": [],
+  "start": 1742954836052,
+  "stop": 1742954848050
+}

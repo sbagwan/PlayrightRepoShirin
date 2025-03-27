@@ -1,0 +1,45 @@
+{
+  "uuid": "03f90297-0907-476f-961b-64af373b72f4",
+  "historyId": "8c008233ab56d71b326cd4516a5e32c1",
+  "testCaseId": "c7f7959e38dcff911ae217ed4fa65a03",
+  "fullName": "newproject:LambdatestPlaywrightTests.PlaywrightTests.TestScenario2()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-HT6ER8O9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "LambdatestPlaywrightTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestScenario2"
+    },
+    {
+      "name": "testClass",
+      "value": "PlaywrightTests"
+    }
+  ],
+  "links": [],
+  "name": "Scenario is for Drag and Drop",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743014556861,
+  "stop": 1743014569720
+}

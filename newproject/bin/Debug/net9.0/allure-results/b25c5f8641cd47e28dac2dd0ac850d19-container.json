@@ -1,0 +1,14 @@
+{
+  "uuid": "c9fb8a32-63be-4364-bd49-f4a05f96d5dc",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass",
+  "children": [
+    "44c48f3b-e70c-45aa-b78e-a88efa97732c",
+    "ec0ffa62-c3be-4e2f-8eac-f82ca4e28ee2",
+    "059469d7-c76b-4051-b36b-f51c6debc0ff"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1742937139219,
+  "stop": 1742937179722
+}

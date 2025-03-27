@@ -1,0 +1,48 @@
+{
+  "uuid": "6896f4cc-65b6-427f-bfa0-bcbff1d0de2a",
+  "name": "LambdatestPlaywrightTests.PlaywrightTests(\"chrome\",\"128\",\"macOS Ventura\").TestScenario3",
+  "children": [
+    "353be2cd-e5cf-4a6a-8e13-bed6b2a33759"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Connection disposed",
+        "trace": "Microsoft.Playwright.TargetClosedException: Connection disposed\r\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at Microsoft.Playwright.Core.LocalUtils.ConnectAsync(String wsEndpoint, IEnumerable`1 headers, Nullable`1 slowMo, Nullable`1 timeout, String exposeNetwork) in /_/src/Playwright/Core/LocalUtils.cs:line 97\r\n   at Microsoft.Playwright.Core.BrowserType.ConnectAsync(String wsEndpoint, BrowserTypeConnectOptions options) in /_/src/Playwright/Core/BrowserType.cs:line 179\r\n   at LambdatestPlaywrightTests.PlaywrightTests.Setup() in C:\\Users\\shirin\\source\\repos\\newproject\\UnitTest1.cs:line 55\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954693212,
+      "stop": 1742954702975
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Target page, context or browser has been closed",
+        "trace": "Microsoft.Playwright.TargetClosedException: Target page, context or browser has been closed\r\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 144\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at Microsoft.Playwright.Core.Tracing._TracingStopChunkAsync(String mode) in /_/src/Playwright/Core/Tracing.cs:line 146\r\n   at Microsoft.Playwright.Core.Tracing.DoStopChunkAsync(String filePath) in /_/src/Playwright/Core/Tracing.cs:line 125\r\n   at Microsoft.Playwright.Core.Tracing.StopAsync(TracingStopOptions options) in /_/src/Playwright/Core/Tracing.cs:line 97\r\n   at LambdatestPlaywrightTests.PlaywrightTests.Close() in C:\\Users\\shirin\\source\\repos\\newproject\\UnitTest1.cs:line 170\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742954702978,
+      "stop": 1742954702979
+    }
+  ],
+  "links": [],
+  "start": 1742954693197,
+  "stop": 1742954702998
+}

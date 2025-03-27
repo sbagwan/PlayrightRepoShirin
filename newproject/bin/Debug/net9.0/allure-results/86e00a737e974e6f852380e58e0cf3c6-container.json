@@ -1,0 +1,44 @@
+{
+  "uuid": "6407e8e0-7c63-419e-9227-727160f302c0",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass(\"chrome\",\"128\",\"macOS Ventura\").TestScenarioDragDrop",
+  "children": [
+    "0c39671d-6b18-4ce9-adbc-b2dfcc98706f"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742953641856,
+      "stop": 1742953666839
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742953673638,
+      "stop": 1742953674959
+    }
+  ],
+  "links": [],
+  "start": 1742953641843,
+  "stop": 1742953674961
+}

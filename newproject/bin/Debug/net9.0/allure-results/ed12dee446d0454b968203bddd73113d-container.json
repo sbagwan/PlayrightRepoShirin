@@ -1,0 +1,44 @@
+{
+  "uuid": "4fe61cf2-f756-49e1-9590-e7f442b29176",
+  "name": "LambdatestPlaywrightTests.PlaywrightClass.TestScenarioDragDrop",
+  "children": [
+    "44c48f3b-e70c-45aa-b78e-a88efa97732c"
+  ],
+  "befores": [
+    {
+      "name": "Setup session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742937139238,
+      "stop": 1742937149112
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1742937154111,
+      "stop": 1742937155320
+    }
+  ],
+  "links": [],
+  "start": 1742937139229,
+  "stop": 1742937155357
+}
